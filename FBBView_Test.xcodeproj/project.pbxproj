@@ -7,20 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74243E1D26CC799100190BB3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74243E1C26CC799100190BB3 /* ContentViewModel.swift */; };
+		74243E1E26CC799100190BB3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74243E1C26CC799100190BB3 /* ContentViewModel.swift */; };
+		74302C0926E05C62005D51D4 /* CarouselItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74302C0826E05C62005D51D4 /* CarouselItemViewModel.swift */; };
+		74302C0A26E05C62005D51D4 /* CarouselItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74302C0826E05C62005D51D4 /* CarouselItemViewModel.swift */; };
+		74302C0C26E05E2C005D51D4 /* MockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74302C0B26E05E2C005D51D4 /* MockItem.swift */; };
+		74302C0D26E05E2C005D51D4 /* MockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74302C0B26E05E2C005D51D4 /* MockItem.swift */; };
 		744B113D26C42F4300D9EDDC /* FBBView_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B112F26C42F4200D9EDDC /* FBBView_TestApp.swift */; };
 		744B113E26C42F4300D9EDDC /* FBBView_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B112F26C42F4200D9EDDC /* FBBView_TestApp.swift */; };
 		744B113F26C42F4300D9EDDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B113026C42F4200D9EDDC /* ContentView.swift */; };
 		744B114026C42F4300D9EDDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B113026C42F4200D9EDDC /* ContentView.swift */; };
 		744B114126C42F4300D9EDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B113126C42F4300D9EDDC /* Assets.xcassets */; };
 		744B114226C42F4300D9EDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B113126C42F4300D9EDDC /* Assets.xcassets */; };
+		744B114C26C431DE00D9EDDC /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B114B26C431DE00D9EDDC /* TrackableScrollView.swift */; };
+		744B114D26C431DE00D9EDDC /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B114B26C431DE00D9EDDC /* TrackableScrollView.swift */; };
+		744B114F26C4333200D9EDDC /* ScrollOffsetPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B114E26C4333200D9EDDC /* ScrollOffsetPreference.swift */; };
+		744B115026C4333200D9EDDC /* ScrollOffsetPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B114E26C4333200D9EDDC /* ScrollOffsetPreference.swift */; };
+		744B115226C4360700D9EDDC /* FTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115126C4360700D9EDDC /* FTBView.swift */; };
+		744B115326C4360700D9EDDC /* FTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115126C4360700D9EDDC /* FTBView.swift */; };
+		744B115526C4361100D9EDDC /* FTBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115426C4361100D9EDDC /* FTBViewModel.swift */; };
+		744B115626C4361100D9EDDC /* FTBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115426C4361100D9EDDC /* FTBViewModel.swift */; };
+		744B115B26C4B1CA00D9EDDC /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115A26C4B1CA00D9EDDC /* ContentTabView.swift */; };
+		744B115C26C4B1CA00D9EDDC /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B115A26C4B1CA00D9EDDC /* ContentTabView.swift */; };
+		745B1CEE26D33F640080A851 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CED26D33F640080A851 /* ImageCarousel.swift */; };
+		745B1CEF26D33F640080A851 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CED26D33F640080A851 /* ImageCarousel.swift */; };
+		745B1CF126D33F740080A851 /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CF026D33F740080A851 /* CarouselItem.swift */; };
+		745B1CF226D33F740080A851 /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CF026D33F740080A851 /* CarouselItem.swift */; };
+		745B1CF426D33F820080A851 /* ImageCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CF326D33F820080A851 /* ImageCarouselModel.swift */; };
+		745B1CF526D33F820080A851 /* ImageCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B1CF326D33F820080A851 /* ImageCarouselModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74243E1C26CC799100190BB3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		74302C0826E05C62005D51D4 /* CarouselItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemViewModel.swift; sourceTree = "<group>"; };
+		74302C0B26E05E2C005D51D4 /* MockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockItem.swift; sourceTree = "<group>"; };
 		744B112F26C42F4200D9EDDC /* FBBView_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBView_TestApp.swift; sourceTree = "<group>"; };
 		744B113026C42F4200D9EDDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		744B113126C42F4300D9EDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744B113626C42F4300D9EDDC /* FBBView_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBView_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744B113C26C42F4300D9EDDC /* FBBView_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBView_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744B114B26C431DE00D9EDDC /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		744B114E26C4333200D9EDDC /* ScrollOffsetPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreference.swift; sourceTree = "<group>"; };
+		744B115126C4360700D9EDDC /* FTBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTBView.swift; sourceTree = "<group>"; };
+		744B115426C4361100D9EDDC /* FTBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTBViewModel.swift; sourceTree = "<group>"; };
+		744B115A26C4B1CA00D9EDDC /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
+		745B1CED26D33F640080A851 /* ImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
+		745B1CF026D33F740080A851 /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
+		745B1CF326D33F820080A851 /* ImageCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +85,15 @@
 		744B112E26C42F4200D9EDDC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				745B1CEC26D33F1C0080A851 /* ImageCarousel */,
+				745B1CEB26D335A00080A851 /* FTBView */,
 				744B112F26C42F4200D9EDDC /* FBBView_TestApp.swift */,
 				744B113026C42F4200D9EDDC /* ContentView.swift */,
 				744B113126C42F4300D9EDDC /* Assets.xcassets */,
+				744B114B26C431DE00D9EDDC /* TrackableScrollView.swift */,
+				744B114E26C4333200D9EDDC /* ScrollOffsetPreference.swift */,
+				74243E1C26CC799100190BB3 /* ContentViewModel.swift */,
+				74302C0B26E05E2C005D51D4 /* MockItem.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -66,6 +105,27 @@
 				744B113C26C42F4300D9EDDC /* FBBView_Test.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		745B1CEB26D335A00080A851 /* FTBView */ = {
+			isa = PBXGroup;
+			children = (
+				744B115A26C4B1CA00D9EDDC /* ContentTabView.swift */,
+				744B115126C4360700D9EDDC /* FTBView.swift */,
+				744B115426C4361100D9EDDC /* FTBViewModel.swift */,
+			);
+			path = FTBView;
+			sourceTree = "<group>";
+		};
+		745B1CEC26D33F1C0080A851 /* ImageCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				745B1CED26D33F640080A851 /* ImageCarousel.swift */,
+				745B1CF026D33F740080A851 /* CarouselItem.swift */,
+				745B1CF326D33F820080A851 /* ImageCarouselModel.swift */,
+				74302C0826E05C62005D51D4 /* CarouselItemViewModel.swift */,
+			);
+			path = ImageCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745B1CF426D33F820080A851 /* ImageCarouselModel.swift in Sources */,
+				74243E1D26CC799100190BB3 /* ContentViewModel.swift in Sources */,
+				74302C0C26E05E2C005D51D4 /* MockItem.swift in Sources */,
+				744B114F26C4333200D9EDDC /* ScrollOffsetPreference.swift in Sources */,
+				744B114C26C431DE00D9EDDC /* TrackableScrollView.swift in Sources */,
+				745B1CEE26D33F640080A851 /* ImageCarousel.swift in Sources */,
+				744B115226C4360700D9EDDC /* FTBView.swift in Sources */,
+				744B115B26C4B1CA00D9EDDC /* ContentTabView.swift in Sources */,
+				74302C0926E05C62005D51D4 /* CarouselItemViewModel.swift in Sources */,
+				744B115526C4361100D9EDDC /* FTBViewModel.swift in Sources */,
 				744B113F26C42F4300D9EDDC /* ContentView.swift in Sources */,
+				745B1CF126D33F740080A851 /* CarouselItem.swift in Sources */,
 				744B113D26C42F4300D9EDDC /* FBBView_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745B1CF526D33F820080A851 /* ImageCarouselModel.swift in Sources */,
+				74243E1E26CC799100190BB3 /* ContentViewModel.swift in Sources */,
+				74302C0D26E05E2C005D51D4 /* MockItem.swift in Sources */,
+				744B115026C4333200D9EDDC /* ScrollOffsetPreference.swift in Sources */,
+				744B114D26C431DE00D9EDDC /* TrackableScrollView.swift in Sources */,
+				745B1CEF26D33F640080A851 /* ImageCarousel.swift in Sources */,
+				744B115326C4360700D9EDDC /* FTBView.swift in Sources */,
+				744B115C26C4B1CA00D9EDDC /* ContentTabView.swift in Sources */,
+				74302C0A26E05C62005D51D4 /* CarouselItemViewModel.swift in Sources */,
+				744B115626C4361100D9EDDC /* FTBViewModel.swift in Sources */,
 				744B114026C42F4300D9EDDC /* ContentView.swift in Sources */,
+				745B1CF226D33F740080A851 /* CarouselItem.swift in Sources */,
 				744B113E26C42F4300D9EDDC /* FBBView_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

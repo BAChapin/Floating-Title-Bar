@@ -11,7 +11,8 @@ import SwiftUI
 struct FBBView_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ImageCarousel(viewModel: ImageCarouselModel(items: MockItem.generate(110)))
         }
     }
 }
